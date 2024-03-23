@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tabelas Semânticas</title>
+    <link rel="stylesheet" href="CSS/estilos.css" />
+    <link rel="stylesheet" href="CSS/estilos_tabela.css" />
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1>
+        </header>
+        <main><!-- ta sendo usado para fazer a margem interna -->
+            <h2>Lista de Produtos</h2>
+            <table><!-- para iniciar a tabela -->
+                <thead><!--cabeçalho da tabela-->
+                    <tr> <!--linha da tabela, o tr faz linhas-->
+                        <th>Código</th> <!--coluna da tabela, o th faz colunas-->
+                        <th>Categoria</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Foto</th>
+                    </tr>
+                </thead>
+                <tbody><!--corpo da tabela-->
+                    <tr>
+                        <td>987</th>
+                        <td>Processador</td>
+                        <td>Ryzen 7 5800</td>
+                        <td>R$ 1.862,00</td>
+                        <td><img src="imgems/4xg.avif"/></td>
+                    </tr>
+                    <tr class="zebra"><!-- -->
+                        <td>156</th>
+                        <td>Placa de video</td>
+                        <td>Nvidia RTX 4070 TI</td>
+                        <td>R$ 4.822,00</td>
+                        <td><img src="imgems/OIP.jpg"/></td>
+                    </tr>
+                    <tr>
+                        <td>028</th>
+                        <td>Placa mãe</td>
+                        <td>Asus B450 TUF</td>
+                        <td>R$ 989,56</td>
+                        <td><img src="imgems/placa-mae-asus-am4-prime-b450m-gaming-br-ddr4-1571867634388_1000x1000+fill_ffffff.jpg"/></td>
+                    </tr>
+                    
+                
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            Loja de Hardware Ltda
+            <address>
+                Rua da Fatec, 286
+                - Jáu - <abbr title="São Paulo - Brasil">SP</abbr>
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>

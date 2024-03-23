@@ -1,0 +1,97 @@
+fieldset {
+    padding: 1%;
+    border-radius:10px;
+    background:#eee;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.123);
+    margin-top:2%;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+legend {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+    background: #eee;
+    padding: 1%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: rgb(117, 117, 117);
+    text-transform: uppercase;
+    padding: .5%;
+}
+
+main{
+    margin: 1%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(117, 117, 117);
+    padding: 1%;
+}
+
+#corpo{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 20px;
+    margin:2%;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+label, input, select{
+    display: block; /*deixou mais organizado*/
+    box-sizing: border-box;    
+}
+
+label{
+    padding: 5px;
+}
+
+input, select{
+    width: 100%;
+    border: 1px outset;
+    padding: 10px;
+}
+
+input:focus { /*quando a caixa estiver selecionada ele vai mudar de cor*/
+    background: lightyellow;
+    border: 1px solid yellow;
+    outline:none;
+}
+
+.label-50{
+    width: 50%; float:left;
+}
+
+.center{
+    text-align: center; padding: 2%;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #667;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+button:hover { background-color: #ddd;}
+button:active { background-color:  #667;}
+
+.botao-enviar { background-color: greenyellow;}
