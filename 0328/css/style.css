@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0;}
+
+h1, h2, h3, p {
+    color: white
+}
+
+body {
+    background-image: url("cyberpunk-04.jpg");
+    padding: 5%;
+    font-family: "trebuchet MS";
+}
+
+#corpo {
+    background: #240000;
+    border: 1px solid #ff00d4;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(255, 0, 221, 0.678);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #29011d;
+    padding: 2%;
+    border-bottom: 1px solid #ff00d4;
+
+}
+
+main {
+    padding: 2%;
+}
+
+footer {
+    background: #29011d;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid #ff00d4;
+
+}
+
+footer address, footer{
+    color: white;
+}
+
+header h1{ /* header h1, esta especificando onde vai ser essa 
+    alterção, vai ser no cabeçalho e somente no h1's que estão presente no header*/
+    text-align: center;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-transform: uppercase;
+}
+
+
